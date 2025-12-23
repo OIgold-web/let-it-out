@@ -1,6 +1,6 @@
 .body{
   font-size: 15px;
-  background-image: url("/bg.jpeg");
+  background-image: url("bg.jpeg");
   background-size: cover;
   height: 100vh;
   position: absolute;
