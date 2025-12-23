@@ -11,12 +11,12 @@ function playPause(){
     song.pause();
     playBtn.classList.remove('pause');
     playBtn.classList.add('play');
-    playBtn.src = '/play-button_icon-icons.com_53922.png';
+    playBtn.src = 'play-button_icon-icons.com_53922.png';
   }else {
     song.play();
     playBtn.classList.add('pause');
     playBtn.classList.remove('play');
-    playBtn.src = '/pause_icon-icons.com_69612.png';
+    playBtn.src = 'pause_icon-icons.com_69612.png';
   }
 }
 if(song.play()){
