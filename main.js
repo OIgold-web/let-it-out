@@ -27,5 +27,7 @@ if(song.play()){
 progressBar.onchange = function(){
   song.currentTime = progressBar.value;
 }
-
+if("serviceWorker" in navigator){
+  navigator.serviceWorker.register(sw.js)
+}
 
